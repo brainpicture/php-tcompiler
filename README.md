@@ -1,4 +1,5 @@
 # Another one php template engine (my old stuff)
+*(note: ./tpl/tmp should be writable)*
 
 ## Syntax:
 ### Variables
