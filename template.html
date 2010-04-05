@@ -1,0 +1,37 @@
+<link rel="stylesheet" type="text/css" href="/styles.css">
+<h1>{tpl} template engine testing page</h1>
+<div class="left">
+	<h2>Variable</h2>
+	{num}
+	<h2>Sub variable</h2>
+	{post.page.id}
+	<h2>Block</h2>
+	<table>
+	<!--begin:bin-->
+	<tr>
+		<!--include:inc.html-->
+	
+	</tr>
+	<!--end-->
+	</table>
+</div>
+
+
+
+
+
+<div class="right">
+	<h2>Sub block</h2>
+	<table>
+	<!--begin:table-->
+	<tr>
+		<!--begin:table.row-->
+			<td>{table.row.num}</td>
+		<!--end-->
+	</tr>
+	<!--end-->
+	</table>
+	<h2>Include</h2>
+	<!--include:include.html-->
+	
+</div>
